@@ -1,0 +1,154 @@
+
+.herosection {
+    text-align: center;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 50vh; /* Ensures proper centering */
+}
+
+.line {
+    width: 50px;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+}
+.img-box{
+    height: 580px;
+    background-image: url(yellow-leaves-9374748_1920.jpg);
+}
+.navbutton {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.foot p {
+    background-color: rgb(234, 232, 230);
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.foot{
+    width: 100%;
+}
+.line2, .line3 {
+    width: 50px;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+}
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: auto;
+    border-radius: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.herosection h1{
+    letter-spacing: 5px;
+}
+.herosection h6{
+    letter-spacing: 2px;
+}
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 5px;
+}
+.navbutton:hover {
+    background-color: gray;
+}
+.line4 {
+    width: 50px;
+    height: 3px;
+    background-color: black;
+    margin: auto;
+}
+.about-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.about-text {
+    text-align: justify;
+}
+@media (min-width: 992px) {
+    .herosection {
+        text-align: center;
+        align-items: center; /* Ensures text stays in center */
+    }
+}
+
+.subscribe-section {
+    background-color: rgb(235, 232, 232);
+    padding: 80px 20px;
+}
+.subscribe-section input {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+.LS{
+    font-weight: 500;
+}
+.subscribe-section button {
+    border: 2px solid black;
+    padding: 10px 40px;
+    background-color: transparent;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.subscribe-section button:hover {
+    background-color: black;
+    color: white;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 600;
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+.footer .social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footer .social-icons i:hover {
+    color: #007bff;
+}
+.footer-links h5 {
+    margin: 0 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footer-links h5:hover {
+    color: #007bff;
+}
